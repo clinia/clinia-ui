@@ -4,22 +4,22 @@ importers:
 
   .:
     specifiers:
-      '@changesets/cli': ^2.25.2
-      eslint: ^8.29.0
-      eslint-config-cliniad: workspace:0.0.0
-      prettier: ^2.8.0
+      '@changesets/cli': ^2.26.1
+      eslint: ^8.37.0
+      eslint-config-clinia-ui: workspace:0.0.0
+      prettier: ^2.8.7
       turbo: latest
     devDependencies:
       '@changesets/cli': 2.26.1
       eslint: 8.37.0
-      eslint-config-cliniad: link:packages/eslint-config-cliniad
+      eslint-config-clinia-ui: link:packages/eslint-config-cliniad
       prettier: 2.8.7
       turbo: 1.8.8
 
   apps/docs:
     specifiers:
-      '@cliniad/core': workspace:0.0.0
-      '@cliniad/tsconfig': workspace:0.0.0
+      '@clinia-ui/core': workspace:0.0.0
+      '@clinia-ui/tsconfig': workspace:0.0.0
       '@storybook/addon-actions': ^6.5.14
       '@storybook/addon-docs': ^6.5.14
       '@storybook/addon-essentials': ^6.5.14
@@ -27,18 +27,18 @@ importers:
       '@storybook/builder-vite': ^0.1.41
       '@storybook/react': ^6.5.14
       '@vitejs/plugin-react': ^1.3.2
-      eslint-config-clinia: workspace:0.0.0
+      eslint-config-clinia-ui: workspace:0.0.0
       react: ^18.2.0
       react-dom: ^18.2.0
       serve: ^13.0.4
       typescript: ^4.9.3
       vite: ^2.9.15
     dependencies:
-      '@cliniad/core': link:../../packages/core
+      '@clinia-ui/core': link:../../packages/core
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
     devDependencies:
-      '@cliniad/tsconfig': link:../../packages/tsconfig
+      '@clinia-ui/tsconfig': link:../../packages/tsconfig
       '@storybook/addon-actions': 6.5.16_biqbaboplfbrettd7655fr4n2y
       '@storybook/addon-docs': 6.5.16_i77hg4g2zwcglgosfsqwg3anl4
       '@storybook/addon-essentials': 6.5.16_i77hg4g2zwcglgosfsqwg3anl4
@@ -46,41 +46,47 @@ importers:
       '@storybook/builder-vite': 0.1.41_trbv662gqoxwekl47y4e7gnvoi
       '@storybook/react': 6.5.16_vlwnal25alx5oeey7ccywy6jh4
       '@vitejs/plugin-react': 1.3.2
-      eslint-config-clinia: link:../../packages
+      eslint-config-clinia-ui: link:../../packages/eslint-config-cliniad
       serve: 13.0.4
       typescript: 4.9.5
       vite: 2.9.15
 
-  packages:
-
+  packages/button:
     specifiers:
-      eslint-config-next: latest
-      eslint-config-prettier: ^8.3.0
-      eslint-config-turbo: latest
-      eslint-plugin-react: 7.29.4
-
-    dependencies:
-      eslint-config-next: 13.2.4_ip5up2nocltd47wbnuyybe5dxu
-      eslint-config-prettier: 8.8.0_eslint@8.37.0
-      eslint-config-turbo: 1.8.8_eslint@8.37.0
-      eslint-plugin-react: 7.29.4_eslint@8.37.0
-
-  packages/core:
-    specifiers:
-      '@cliniad/tsconfig': workspace:*
+      '@clinia-ui/tsconfig': workspace:*
       '@types/react': ^18.0.9
       '@types/react-dom': ^18.0.4
       eslint: ^8.15.0
-      eslint-config-clinia: workspace:*
+      eslint-config-clinia-ui: workspace:*
       react: ^18.1.0
       tsup: ^5.10.1
       typescript: ^4.5.3
     devDependencies:
-      '@cliniad/tsconfig': link:../tsconfig
+      '@clinia-ui/tsconfig': link:../tsconfig
       '@types/react': 18.0.33
       '@types/react-dom': 18.0.11
       eslint: 8.37.0
-      eslint-config-clinia: link:..
+      eslint-config-clinia-ui: link:../eslint-config-cliniad
+      react: 18.2.0
+      tsup: 5.12.9_typescript@4.9.5
+      typescript: 4.9.5
+
+  packages/core:
+    specifiers:
+      '@clinia-ui/tsconfig': workspace:*
+      '@types/react': ^18.0.9
+      '@types/react-dom': ^18.0.4
+      eslint: ^8.15.0
+      eslint-config-clinia-ui: workspace:*
+      react: ^18.1.0
+      tsup: ^5.10.1
+      typescript: ^4.5.3
+    devDependencies:
+      '@clinia-ui/tsconfig': link:../tsconfig
+      '@types/react': 18.0.33
+      '@types/react-dom': 18.0.11
+      eslint: 8.37.0
+      eslint-config-clinia-ui: link:../eslint-config-cliniad
       react: 18.2.0
       tsup: 5.12.9_typescript@4.9.5
       typescript: 4.9.5
