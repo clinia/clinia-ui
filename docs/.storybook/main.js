@@ -14,10 +14,10 @@ module.exports = {
       resolve: {
         alias: [
           {
-            find: "@cliniad/core",
+            find: "@clinia-ui/core",
             replacement: path.resolve(
               __dirname,
-              "../../../packages/core/"
+              "../../packages/core/"
             ),
           },
         ],
