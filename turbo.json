@@ -21,7 +21,8 @@
       "cache": false,
       "persistent": true
     },
-    "start": {
+    "storybook:move": {
+      "cache": false
     },
     "clean": {
       "cache": false
