@@ -1,0 +1,26 @@
+import { Grid, GridItem } from "@clinia-ui/react";
+import { Meta, Story, Canvas, ArgsTable } from "@storybook/addon-docs";
+
+<Meta title="Components/Grid" component={Grid} />
+
+# Grid
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl eget consectetur tempor, nisl nunc egestas nisi, euismod aliquam nisl nunc euismod.
+
+## Props
+
+<ArgsTable of={Grid} />
+
+## Examples
+
+<Canvas>
+  <Story name="Default">
+    <Grid templateColumns="repeat(5, 1fr)" gap={6}>
+      <GridItem w="100%" h="10" bg="blue.500" />
+      <GridItem w="100%" h="10" bg="blue.500" />
+      <GridItem w="100%" h="10" bg="blue.500" />
+      <GridItem w="100%" h="10" bg="blue.500" />
+      <GridItem w="100%" h="10" bg="blue.500" />
+    </Grid>
+  </Story>
+</Canvas>

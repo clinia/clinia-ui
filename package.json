@@ -6,7 +6,7 @@
   ],
   "scripts": {
     "build": "turbo run build",
-    "start": "turbo run start",
+    "test": "turbo run test",
     "dev": "turbo run dev --no-cache --continue",
     "storybook:move": "turbo run storybook:move",
     "lint": "turbo run lint",
