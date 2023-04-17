@@ -2,7 +2,7 @@
   "name": "eslint-config-clinia",
   "version": "0.0.0",
   "main": "index.js",
-  "license": "MIT",
+  "private": true,
   "dependencies": {
     "eslint-config-next": "latest",
     "eslint-config-prettier": "^8.3.0",

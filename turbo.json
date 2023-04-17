@@ -21,6 +21,8 @@
       "cache": false,
       "persistent": true
     },
+    "start": {
+    },
     "clean": {
       "cache": false
     }
