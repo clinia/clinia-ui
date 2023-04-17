@@ -20,6 +20,13 @@ module.exports = {
               "../../packages/core/"
             ),
           },
+          {
+            find: "@clinia-ui/react",
+            replacement: path.resolve(
+              __dirname,
+              "../../packages/react/"
+            ),
+          }
         ],
       },
     };
