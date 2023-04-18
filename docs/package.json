@@ -1,30 +1,36 @@
 {
-    "name": "@clinia-ui/docs",
-    "version": "0.0.0",
-    "private": true,
-    "scripts": {
-        "dev": "start-storybook -p 6006",
-        "build": "build-storybook --docs",
-        "storybook:move": "mv storybook-static ../storybook-static",
-        "clean": "rm -rf .turbo && rm -rf node_modules"
-    },
-    "dependencies": {
-        "@clinia-ui/core": "*",
-        "react": "^18.2.0",
-        "react-dom": "^18.2.0"
-    },
-    "devDependencies": {
-        "@clinia-ui/tsconfig": "*",
-        "@storybook/addon-actions": "^6.5.14",
-        "@storybook/addon-docs": "^6.5.14",
-        "@storybook/addon-essentials": "^6.5.14",
-        "@storybook/addon-links": "^6.5.14",
-        "@storybook/builder-vite": "^0.1.41",
-        "@storybook/react": "^6.5.14",
-        "@vitejs/plugin-react": "^1.3.2",
-        "eslint-config-clinia": "*",
-        "serve": "^13.0.4",
-        "typescript": "^4.9.3",
-        "vite": "^2.9.15"
-    }
+  "name": "@clinia-ui/docs",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "storybook dev -p 6006",
+    "build": "storybook build --docs",
+    "storybook:move": "mv storybook-static ../storybook-static",
+    "clean": "rm -rf .turbo && rm -rf node_modules",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "dependencies": {
+    "@clinia-ui/core": "*",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.21.4",
+    "@babel/preset-react": "^7.18.6",
+    "@babel/preset-typescript": "^7.21.4",
+    "@clinia-ui/tsconfig": "*",
+    "@storybook/addon-essentials": "^7.0.6",
+    "@storybook/addon-interactions": "^7.0.6",
+    "@storybook/addon-links": "^7.0.6",
+    "@storybook/blocks": "^7.0.6",
+    "@storybook/react": "^7.0.6",
+    "@storybook/react-webpack5": "^7.0.6",
+    "@storybook/testing-library": "^0.0.14-next.2",
+    "eslint-config-clinia": "*",
+    "prop-types": "^15.8.1",
+    "serve": "^13.0.4",
+    "storybook": "^7.0.6",
+    "typescript": "^4.9.3"
+  }
 }
