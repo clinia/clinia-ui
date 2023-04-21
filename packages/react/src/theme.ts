@@ -6,7 +6,20 @@ const buttonTheme = defineStyleConfig({
   },
 });
 
+const checkboxTheme = defineStyleConfig({
+  defaultProps: {
+    colorScheme: "primary",
+  },
+});
+
+// TODO : INPUT FOCUS BORDER
+
+// TODO : Gray
+// TODO : Border radius
+// TODO : Border width
+
 export const theme = extendTheme({
+  // TODO : Undo, testing purposes
   colors: {
     primary: {
       500: "#35c7f3",
@@ -17,12 +30,13 @@ export const theme = extendTheme({
       500: "#d62828",
     },
     green: {
-      100: "#C8F3E1",
-      500: "#25d087",
+      50: "#ff69b4", //"#E4F9F0",
+      100: "#ff69b4", //"#C8F3E1",
+      500: "#ff69b4", //"#25d087",
     },
     blue: {
-      100: "#B3EAFA",
-      500: "#35c7f3",
+      100: "#ff69b4", //"#B3EAFA",
+      500: "#ff69b4", //"#35c7f3",
     },
   },
   fonts: {
@@ -32,5 +46,6 @@ export const theme = extendTheme({
   },
   components: {
     Button: buttonTheme,
+    Checkbox: checkboxTheme,
   },
 });

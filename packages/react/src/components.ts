@@ -318,6 +318,10 @@ export type { ButtonProps, ButtonGroupProps } from "@chakra-ui/react";
 export { Checkbox, CheckboxGroup } from "@chakra-ui/react";
 export type { CheckboxProps, CheckboxGroupProps } from "@chakra-ui/react";
 
+// Control Box
+export { ControlBox } from "@chakra-ui/react";
+export type { ControlBoxProps } from "@chakra-ui/react";
+
 // Editable
 export {
   Editable,
@@ -338,12 +342,14 @@ export {
   FormLabel,
   FormErrorMessage,
   FormHelperText,
+  FormErrorIcon,
 } from "@chakra-ui/react";
 export type {
   FormControlProps,
   FormLabelProps,
   FormErrorMessageProps,
   FormHelperTextProps,
+  FormControlOptions,
 } from "@chakra-ui/react";
 
 // Icon Button
@@ -493,7 +499,7 @@ export { SimpleGrid } from "@chakra-ui/react";
 export type { SimpleGridProps } from "@chakra-ui/react";
 
 // Stack
-export { Stack, HStack, VStack } from "@chakra-ui/react";
+export { Stack, HStack, VStack, StackDivider } from "@chakra-ui/react";
 export type { StackProps } from "@chakra-ui/react";
 
 // Wrap
