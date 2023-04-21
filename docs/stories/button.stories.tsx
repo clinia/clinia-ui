@@ -4,13 +4,16 @@ import {
   EmailIcon,
   PhoneIcon,
   SearchIcon,
+  Container,
+  HStack,
+  Stack,
+  Button,
+  ButtonGroup,
+  IconButton,
 } from "@clinia-ui/react";
-import { Container, HStack, Stack } from "@chakra-ui/layout";
 import * as React from "react";
 import { motion } from "framer-motion";
 import { Meta, StoryFn } from "@storybook/react";
-import { ThemingProps } from "@chakra-ui/system";
-import { Button, ButtonGroup, IconButton } from "@clinia-ui/react";
 
 export default {
   title: "Components / Forms / Button",
@@ -23,7 +26,7 @@ export default {
   ],
 } as Meta;
 
-interface StoryProps extends ThemingProps<"Button"> {
+interface StoryProps {
   children?: React.ReactNode;
 }
 
