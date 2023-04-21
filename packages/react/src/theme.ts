@@ -12,6 +12,18 @@ export const theme = extendTheme({
       500: "#35c7f3",
       600: "#35c7f3",
     },
+    red: {
+      100: "#F5C9C9",
+      500: "#d62828",
+    },
+    green: {
+      100: "#C8F3E1",
+      500: "#25d087",
+    },
+    blue: {
+      100: "#B3EAFA",
+      500: "#35c7f3",
+    },
   },
   fonts: {
     body: "Montserrat, sans-serif",
