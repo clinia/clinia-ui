@@ -8,6 +8,7 @@ import {
   FormHelperText,
   FormLabel,
   useFormControl,
+  Input,
 } from "@clinia-ui/react";
 
 export default {
@@ -31,17 +32,18 @@ type InputProps = Omit<PropsOf<"input">, OmittedTypes> &
   };
 
 // Create an input that consumes useFormControl
-type Props = { focusBorderColor?: string; errorBorderColor?: string };
+// type Props = { focusBorderColor?: string; errorBorderColor?: string };
 
-const Input = React.forwardRef<HTMLInputElement, InputProps & Props>(
-  function Input(props, ref) {
-    const styles = useMultiStyleConfig("Input", props);
-    const inputProps = useFormControl<HTMLInputElement>(props);
-    return <chakra.input ref={ref} __css={styles.field} {...inputProps} />;
-  }
-);
+// const Input = React.forwardRef<HTMLInputElement, InputProps & Props>(
+//   function Input(props, ref) {
+//     const styles = useMultiStyleConfig("Input", props);
+//     const inputProps = useFormControl<HTMLInputElement>(props);
+//     return <chakra.input ref={ref} __css={styles.field} {...inputProps} />;
+//   }
+// );
 
 export const InputExample = () => (
+  // TODO : IS INVALID
   <FormControl id="first-name" isRequired isInvalid>
     <FormLabel>First name</FormLabel>
     <Input placeholder="First Name" />

@@ -1,18 +1,9 @@
-import { defineStyleConfig, extendTheme } from "@chakra-ui/react";
-
-const buttonTheme = defineStyleConfig({
-  defaultProps: {
-    colorScheme: "primary",
-  },
-});
-
-const checkboxTheme = defineStyleConfig({
-  defaultProps: {
-    colorScheme: "primary",
-  },
-});
-
 // TODO : INPUT FOCUS BORDER
+
+import { extendTheme } from "@chakra-ui/react";
+import { buttonTheme } from "./button";
+import { checkboxTheme } from "./checkbox";
+import { inputTheme } from "./input";
 
 // TODO : Gray
 // TODO : Border radius
@@ -47,5 +38,6 @@ export const theme = extendTheme({
   components: {
     Button: buttonTheme,
     Checkbox: checkboxTheme,
+    Input: inputTheme,
   },
 });
