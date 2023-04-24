@@ -108,7 +108,7 @@ export const SelectExample: React.FC = () => (
  */
 export const StylingFocus: React.FC = () => (
   <FormControl id="first-name">
-    <FormLabel _focus={{ color: "primary.600" }}>First name</FormLabel>
+    <FormLabel _focus={{ color: "primary.main" }}>First name</FormLabel>
     <Input placeholder="First Name" width="100%" />
     <FormErrorMessage>Your First name is invalid</FormErrorMessage>
   </FormControl>

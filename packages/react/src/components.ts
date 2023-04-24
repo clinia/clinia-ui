@@ -181,7 +181,7 @@ export type {
 } from "@chakra-ui/react";
 
 // Image
-export { Image } from "@chakra-ui/react";
+export { Image, Img } from "@chakra-ui/react";
 export type { ImageProps } from "@chakra-ui/react";
 
 /*********************
@@ -357,8 +357,22 @@ export { IconButton } from "@chakra-ui/react";
 export type { IconButtonProps } from "@chakra-ui/react";
 
 //Input
-export { Input } from "@chakra-ui/react";
-export type { InputProps } from "@chakra-ui/react";
+export {
+  Input,
+  InputGroup,
+  InputLeftAddon,
+  InputLeftElement,
+  InputRightAddon,
+  InputRightElement,
+} from "@chakra-ui/react";
+export type {
+  InputProps,
+  InputGroupProps,
+  InputLeftAddonProps,
+  InputLeftElementProps,
+  InputRightAddonProps,
+  InputRightElementProps,
+} from "@chakra-ui/react";
 
 // Number Input
 export {
@@ -465,6 +479,10 @@ export type { HighlightProps } from "@chakra-ui/react";
 // Text
 export { Text } from "@chakra-ui/react";
 export type { TextProps } from "@chakra-ui/react";
+
+// Mark
+export { Mark } from "@chakra-ui/react";
+export type { MarkProps } from "@chakra-ui/react";
 
 /*********************
  *      LAYOUT       *

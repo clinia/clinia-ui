@@ -8,3 +8,6 @@ export type { UseCheckboxProps, UseCheckboxGroupProps } from "@chakra-ui/react";
 
 export { useFormControl } from "@chakra-ui/react";
 export type { useFormControlProps } from "@chakra-ui/react";
+
+export { useHighlight } from "@chakra-ui/react";
+export type { UseHighlightProps } from "@chakra-ui/react";

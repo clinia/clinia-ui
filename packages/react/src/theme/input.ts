@@ -10,7 +10,31 @@ const outline = definePartsStyle({
       boxShadow: "none",
     },
     _focusVisible: {
-      borderColor: "primary.500",
+      borderColor: "primary.main",
+      boxShadow: "none",
+    },
+  },
+});
+
+const filled = definePartsStyle({
+  field: {
+    _invalid: {
+      borderWidth: "1px",
+    },
+    _focusVisible: {
+      borderWidth: "1px",
+      borderColor: "primary.main",
+    },
+  },
+});
+
+const flushed = definePartsStyle({
+  field: {
+    _invalid: {
+      boxShadow: "none",
+    },
+    _focusVisible: {
+      borderColor: "primary.main",
       boxShadow: "none",
     },
   },
@@ -19,5 +43,7 @@ const outline = definePartsStyle({
 export const inputTheme = defineMultiStyleConfig({
   variants: {
     outline,
+    filled,
+    flushed,
   },
 });

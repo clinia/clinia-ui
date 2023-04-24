@@ -23,7 +23,7 @@ export const Checkbox = (props: any) => {
         _focus={{ boxShadow: "outline" }}
         _hover={{ borderColor: "gray.300" }}
         _disabled={{ opacity: 0.4 }}
-        _checked={{ bg: "primary.500", borderColor: "primary.500" }}
+        _checked={{ bg: "primary.main", borderColor: "primary.main" }}
       >
         <CheckIcon w="0.64em" h="0.64em" />
       </ControlBox>
@@ -49,7 +49,7 @@ export const Radio = (props: any) => {
         _focus={{ boxShadow: "outline" }}
         _hover={{ borderColor: "gray.300" }}
         _disabled={{ opacity: 0.4 }}
-        _checked={{ bg: "primary.500", borderColor: "primary.500" }}
+        _checked={{ bg: "primary.main", borderColor: "primary.main" }}
       >
         <Box w="8px" h="8px" bg="white" rounded="full" />
       </ControlBox>
