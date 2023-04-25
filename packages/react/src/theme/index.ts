@@ -1,22 +1,14 @@
-// TODO : INPUT FOCUS BORDER
-
 import { extendTheme, withDefaultColorScheme } from "@chakra-ui/react";
 import { inputTheme, textareaTheme } from "./input";
 import { colors } from "./colors";
-
-// TODO : Gray
-// TODO : Border radius
-// TODO : Border width
+import { radii } from "./radii";
+import { fonts } from "./fonts";
 
 export const theme = extendTheme(
   {
-    // TODO : Undo, testing purposes
     colors,
-    fonts: {
-      body: "Montserrat, sans-serif",
-      heading: "Montserrat, sans-serif",
-      mono: "SFMono-Regular, Consolas, Liberation Mono, Menlo, Courier, monospace",
-    },
+    radii,
+    fonts,
     components: {
       Input: inputTheme,
       NumberInput: inputTheme,
