@@ -1,6 +1,3 @@
-// Theme
-export { theme } from "./theme";
-
 // Components
 export * from "./components";
 

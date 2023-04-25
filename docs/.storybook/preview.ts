@@ -1,5 +1,5 @@
 import type { Preview } from "@storybook/react";
-import { theme } from "@clinia-ui/react";
+import { theme } from "@clinia-ui/theme";
 
 const preview: Preview = {
   parameters: {
