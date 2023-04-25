@@ -19,13 +19,21 @@ export type {
 } from "@chakra-ui/react";
 
 // Tabs
-export { Tabs, TabList, TabPanels, Tab, TabPanel } from "@chakra-ui/react";
+export {
+  Tabs,
+  TabList,
+  TabPanels,
+  Tab,
+  TabPanel,
+  TabIndicator,
+} from "@chakra-ui/react";
 export type {
   TabsProps,
   TabListProps,
   TabPanelsProps,
   TabProps,
   TabPanelProps,
+  TabIndicatorProps,
 } from "@chakra-ui/react";
 
 // Visually Hidden
@@ -58,8 +66,8 @@ export type {
 } from "@chakra-ui/react";
 
 // Progress
-export { Progress } from "@chakra-ui/react";
-export type { ProgressProps } from "@chakra-ui/react";
+export { Progress, ProgressLabel } from "@chakra-ui/react";
+export type { ProgressProps, ProgressLabelProps } from "@chakra-ui/react";
 
 // Skeleton
 export { Skeleton, SkeletonCircle, SkeletonText } from "@chakra-ui/react";
@@ -447,8 +455,8 @@ export { CloseButton } from "@chakra-ui/react";
 export type { CloseButtonProps } from "@chakra-ui/react";
 
 // Portal
-export { Portal } from "@chakra-ui/react";
-export type { PortalProps } from "@chakra-ui/react";
+export { Portal, PortalManager } from "@chakra-ui/react";
+export type { PortalProps, PortalManagerProps } from "@chakra-ui/react";
 
 // Show / Hide
 export { Show, Hide } from "@chakra-ui/react";

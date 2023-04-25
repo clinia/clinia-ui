@@ -1,7 +1,7 @@
 // TODO : INPUT FOCUS BORDER
 
 import { extendTheme, withDefaultColorScheme } from "@chakra-ui/react";
-import { inputTheme } from "./input";
+import { inputTheme, textareaTheme } from "./input";
 import { colors } from "./colors";
 
 // TODO : Gray
@@ -19,6 +19,9 @@ export const theme = extendTheme(
     },
     components: {
       Input: inputTheme,
+      NumberInput: inputTheme,
+      Select: inputTheme,
+      Textarea: textareaTheme,
     },
   },
   withDefaultColorScheme({ colorScheme: "primary" })
