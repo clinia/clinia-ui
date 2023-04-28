@@ -2,8 +2,8 @@
   "name": "@clinia-ui/react",
   "version": "0.0.0",
   "main": "./dist/index.js",
-  "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
+  "module": "./dist/index.mjs",
   "sideEffects": false,
   "license": "MIT",
   "files": [
