@@ -1,0 +1,19 @@
+import { Canvas, Meta, Story } from "@storybook/blocks";
+import { Tooltip } from "@clinia-ui/react";
+
+import * as CliniaIconsStories from "./clinia-icons.stories";
+
+<Meta of={CliniaIconsStories} />
+
+# Icons
+
+Clinia-ui exports its own icons.
+
+<Canvas>
+  {Object.keys(CliniaIconsStories)
+    .filter((key) => key.endsWith("Icon_"))
+    .map((key) => (
+      <Story of={CliniaIconsStories[key]} />
+    ))}
+
+</Canvas>
