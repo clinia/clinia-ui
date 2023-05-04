@@ -80,6 +80,29 @@ import { InfoIcon } from "@clinia-ui/icons/InfoIcon";
 import { InformationIcon } from "@clinia-ui/icons/InformationIcon";
 import { InsuranceIcon } from "@clinia-ui/icons/InsuranceIcon";
 import { IntegrationIcon } from "@clinia-ui/icons/IntegrationIcon";
+import { KebabMenuIcon } from "@clinia-ui/icons/KebabMenuIcon";
+import { LanguagesIcon } from "@clinia-ui/icons/LanguagesIcon";
+import { LeadIcon } from "@clinia-ui/icons/LeadIcon";
+import { LinkIcon } from "@clinia-ui/icons/LinkIcon";
+import { ListNbIcon } from "@clinia-ui/icons/ListNbIcon";
+import { ListViewIcon } from "@clinia-ui/icons/ListViewIcon";
+import { LiveIcon } from "@clinia-ui/icons/LiveIcon";
+import { LocationIcon } from "@clinia-ui/icons/LocationIcon";
+import { LogoutIcon } from "@clinia-ui/icons/LogoutIcon";
+import { LongTextIcon } from "@clinia-ui/icons/LongTextIcon";
+import { ManageUsersIcon } from "@clinia-ui/icons/ManageUsersIcon";
+import { MapIcon } from "@clinia-ui/icons/MapIcon";
+import { MeatballMenuIcon } from "@clinia-ui/icons/MeatballMenuIcon";
+import { MedicalTeamIcon } from "@clinia-ui/icons/MedicalTeamIcon";
+import { MembersIcon } from "@clinia-ui/icons/MembersIcon";
+import { MembersInvitedIcon } from "@clinia-ui/icons/MembersInvitedIcon";
+import { ModalityIcon } from "@clinia-ui/icons/ModalityIcon";
+import { NewPatientsIcon } from "@clinia-ui/icons/NewPatientsIcon";
+import { NoteIcon } from "@clinia-ui/icons/NoteIcon";
+import { NotificationIcon } from "@clinia-ui/icons/NotificationIcon";
+import { NoViewIcon } from "@clinia-ui/icons/NoViewIcon";
+import { NumberIcon } from "@clinia-ui/icons/NumberIcon";
+import { NumeroIcon } from "@clinia-ui/icons/NumeroIcon";
 import {
   Button,
   Card,
@@ -448,3 +471,85 @@ export const IntegrationIcon_ = () => [
   "IntegrationIcon",
   <IntegrationIcon {...props} />,
 ];
+
+export const KebabMenuIcon_ = () => [
+  "KebabMenuIcon",
+  <KebabMenuIcon {...props} />,
+];
+
+export const LanguagesIcon_ = () => [
+  "LanguagesIcon",
+  <LanguagesIcon {...props} />,
+];
+
+export const LeadIcon_ = () => ["LeadIcon", <LeadIcon {...props} />];
+
+export const LinkIcon_ = () => ["LinkIcon", <LinkIcon {...props} />];
+
+export const ListNbIcon_ = () => ["ListNbIcon", <ListNbIcon {...props} />];
+
+export const ListViewIcon_ = () => [
+  "ListViewIcon",
+  <ListViewIcon {...props} />,
+];
+
+export const LiveIcon_ = () => ["LiveIcon", <LiveIcon {...props} />];
+
+export const LocationIcon_ = () => [
+  "LocationIcon",
+  <LocationIcon {...props} />,
+];
+
+export const LogoutIcon_ = () => ["LogoutIcon", <LogoutIcon {...props} />];
+
+export const LongTextIcon_ = () => [
+  "LongTextIcon",
+  <LongTextIcon {...props} />,
+];
+
+export const ManageUsersIcon_ = () => [
+  "ManageUsersIcon",
+  <ManageUsersIcon {...props} />,
+];
+
+export const MapIcon_ = () => ["MapIcon", <MapIcon {...props} />];
+
+export const MeatballMenuIcon_ = () => [
+  "MeatballMenuIcon",
+  <MeatballMenuIcon {...props} />,
+];
+
+export const MedicalTeamIcon_ = () => [
+  "MedicalTeamIcon",
+  <MedicalTeamIcon {...props} />,
+];
+
+export const MembersIcon_ = () => ["MembersIcon", <MembersIcon {...props} />];
+
+export const MembersInvitedIcon_ = () => [
+  "MembersInvitedIcon",
+  <MembersInvitedIcon {...props} />,
+];
+
+export const ModalityIcon_ = () => [
+  "ModalityIcon",
+  <ModalityIcon {...props} />,
+];
+
+export const NewPatientsIcon_ = () => [
+  "NewPatientsIcon",
+  <NewPatientsIcon {...props} />,
+];
+
+export const NoteIcon_ = () => ["NoteIcon", <NoteIcon {...props} />];
+
+export const NotificationIcon_ = () => [
+  "NotificationIcon",
+  <NotificationIcon {...props} />,
+];
+
+export const NoViewIcon_ = () => ["NoViewIcon", <NoViewIcon {...props} />];
+
+export const NumberIcon_ = () => ["NumberIcon", <NumberIcon {...props} />];
+
+export const NumeroIcon_ = () => ["NumeroIcon", <NumeroIcon {...props} />];
