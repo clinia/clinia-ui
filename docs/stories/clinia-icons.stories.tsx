@@ -103,6 +103,48 @@ import { NotificationIcon } from "@clinia-ui/icons/NotificationIcon";
 import { NoViewIcon } from "@clinia-ui/icons/NoViewIcon";
 import { NumberIcon } from "@clinia-ui/icons/NumberIcon";
 import { NumeroIcon } from "@clinia-ui/icons/NumeroIcon";
+import { OpenInNewTabIcon } from "@clinia-ui/icons/OpenInNewTabIcon";
+import { OrganizationIcon } from "@clinia-ui/icons/OrganizationIcon";
+import { PagerIcon } from "@clinia-ui/icons/PagerIcon";
+import { PDFIcon } from "@clinia-ui/icons/PDFIcon";
+import { PeopleIcon } from "@clinia-ui/icons/PeopleIcon";
+import { PhoneIcon } from "@clinia-ui/icons/PhoneIcon";
+import { PracticePlaceIcon } from "@clinia-ui/icons/PracticePlaceIcon";
+import { PreviewIcon } from "@clinia-ui/icons/PreviewIcon";
+import { ProductPanelIcon } from "@clinia-ui/icons/ProductPanelIcon";
+import { ProductWorkspaceIcon } from "@clinia-ui/icons/ProductWorkspaceIcon";
+import { ProfessionIcon } from "@clinia-ui/icons/ProfessionIcon";
+import { ProfileIcon } from "@clinia-ui/icons/ProfileIcon";
+import { ProviderIcon } from "@clinia-ui/icons/ProviderIcon";
+import { RefreshIcon } from "@clinia-ui/icons/RefreshIcon";
+import { ResendInviteIcon } from "@clinia-ui/icons/ResendInviteIcon";
+import { SchoolIcon } from "@clinia-ui/icons/SchoolIcon";
+import { SearchEmptyStateIcon } from "@clinia-ui/icons/SearchEmptyStateIcon";
+import { SearchIcon } from "@clinia-ui/icons/SearchIcon";
+import { SecurityIcon } from "@clinia-ui/icons/SecurityIcon";
+import { ServiceOfferedIcon } from "@clinia-ui/icons/ServiceOfferedIcon";
+import { ServicesIcon } from "@clinia-ui/icons/ServicesIcon";
+import { SettingsIcon } from "@clinia-ui/icons/SettingsIcon";
+import { ShareIcon } from "@clinia-ui/icons/ShareIcon";
+import { ShortTextIcon } from "@clinia-ui/icons/ShortTextIcon";
+import { ShortZAIcon } from "@clinia-ui/icons/ShortZAIcon";
+import { SortAZIcon } from "@clinia-ui/icons/SortAZIcon";
+import { StarRatingIcon } from "@clinia-ui/icons/StarRatingIcon";
+import { SublevelIcon } from "@clinia-ui/icons/SublevelIcon";
+import { SubscriptionsIcon } from "@clinia-ui/icons/SubscriptionsIcon";
+import { SuggestionIcon } from "@clinia-ui/icons/SuggestionIcon";
+import { SuggestionRemovalIcon } from "@clinia-ui/icons/SuggestionRemovalIcon";
+import { TileViewIcon } from "@clinia-ui/icons/TileViewIcon";
+import { ToddlerFaceIcon } from "@clinia-ui/icons/ToddlerFaceIcon";
+import { TooltipIcon } from "@clinia-ui/icons/TooltipIcon";
+import { TrendDownIcon } from "@clinia-ui/icons/TrendDownIcon";
+import { TrendUpIcon } from "@clinia-ui/icons/TrendUpIcon";
+import { UploadIcon } from "@clinia-ui/icons/UploadIcon";
+import { VideosIcon } from "@clinia-ui/icons/VideosIcon";
+import { ViewIcon } from "@clinia-ui/icons/ViewIcon";
+import { WaitingTimeIcon } from "@clinia-ui/icons/WaitingTimeIcon";
+import { WalkinIcon } from "@clinia-ui/icons/WalkinIcon";
+import { WebsiteIcon } from "@clinia-ui/icons/WebsiteIcon";
 import {
   Button,
   Card,
@@ -553,3 +595,156 @@ export const NoViewIcon_ = () => ["NoViewIcon", <NoViewIcon {...props} />];
 export const NumberIcon_ = () => ["NumberIcon", <NumberIcon {...props} />];
 
 export const NumeroIcon_ = () => ["NumeroIcon", <NumeroIcon {...props} />];
+
+export const OpenInNewTabIcon_ = () => [
+  "OpenInNewTabIcon",
+  <OpenInNewTabIcon {...props} />,
+];
+
+export const OrganizationIcon_ = () => [
+  "OrganizationIcon",
+  <OrganizationIcon {...props} />,
+];
+
+export const PagerIcon_ = () => ["PagerIcon", <PagerIcon {...props} />];
+
+export const PDFIcon_ = () => ["PDFIcon", <PDFIcon {...props} />];
+
+export const PeopleIcon_ = () => ["PeopleIcon", <PeopleIcon {...props} />];
+
+export const PhoneIcon_ = () => ["PhoneIcon", <PhoneIcon {...props} />];
+
+export const PracticePlaceIcon_ = () => [
+  "PracticePlaceIcon",
+  <PracticePlaceIcon {...props} />,
+];
+
+export const PreviewIcon_ = () => ["PreviewIcon", <PreviewIcon {...props} />];
+
+export const ProductPanelIcon_ = () => [
+  "ProductPanelIcon",
+  <ProductPanelIcon {...props} />,
+];
+
+export const ProductWorkspaceIcon_ = () => [
+  "ProductWorkspaceIcon",
+  <ProductWorkspaceIcon {...props} />,
+];
+
+export const ProfessionIcon_ = () => [
+  "ProfessionIcon",
+  <ProfessionIcon {...props} />,
+];
+
+export const ProfileIcon_ = () => ["ProfileIcon", <ProfileIcon {...props} />];
+
+export const ProviderIcon_ = () => [
+  "ProviderIcon",
+  <ProviderIcon {...props} />,
+];
+
+export const RefreshIcon_ = () => ["RefreshIcon", <RefreshIcon {...props} />];
+
+export const ResendInviteIcon_ = () => [
+  "ResendInviteIcon",
+  <ResendInviteIcon {...props} />,
+];
+
+export const SchoolIcon_ = () => ["SchoolIcon", <SchoolIcon {...props} />];
+
+export const SearchEmptyStateIcon_ = () => [
+  "SearchEmptyStateIcon",
+  <SearchEmptyStateIcon {...props} />,
+];
+
+export const SearchIcon_ = () => ["SearchIcon", <SearchIcon {...props} />];
+
+export const SecurityIcon_ = () => [
+  "SecurityIcon",
+  <SecurityIcon {...props} />,
+];
+
+export const ServiceOfferedIcon_ = () => [
+  "ServiceOfferedIcon",
+  <ServiceOfferedIcon {...props} />,
+];
+
+export const ServicesIcon_ = () => [
+  "ServicesIcon",
+  <ServicesIcon {...props} />,
+];
+
+export const SettingsIcon_ = () => [
+  "SettingsIcon",
+  <SettingsIcon {...props} />,
+];
+
+export const ShareIcon_ = () => ["ShareIcon", <ShareIcon {...props} />];
+
+export const ShortTextIcon_ = () => [
+  "ShortTextIcon",
+  <ShortTextIcon {...props} />,
+];
+
+export const ShortZAIcon_ = () => ["ShortZAIcon", <ShortZAIcon {...props} />];
+
+export const SortAZIcon_ = () => ["SortAZIcon", <SortAZIcon {...props} />];
+
+export const StarRatingIcon_ = () => [
+  "StarRatingIcon",
+  <StarRatingIcon {...props} />,
+];
+
+export const SublevelIcon_ = () => [
+  "SublevelIcon",
+  <SublevelIcon {...props} />,
+];
+
+export const SubscriptionsIcon_ = () => [
+  "SubscriptionsIcon",
+  <SubscriptionsIcon {...props} />,
+];
+
+export const SuggestionIcon_ = () => [
+  "SuggestionIcon",
+  <SuggestionIcon {...props} />,
+];
+
+export const SuggestionRemovalIcon_ = () => [
+  "SuggestionRemovalIcon",
+  <SuggestionRemovalIcon {...props} />,
+];
+
+export const TileViewIcon_ = () => [
+  "TileViewIcon",
+  <TileViewIcon {...props} />,
+];
+
+export const ToddlerFaceIcon_ = () => [
+  "ToddlerFaceIcon",
+  <ToddlerFaceIcon {...props} />,
+];
+
+export const TooltipIcon_ = () => ["TooltipIcon", <TooltipIcon {...props} />];
+
+export const TrendDownIcon_ = () => [
+  "TrendDownIcon",
+  <TrendDownIcon {...props} />,
+];
+
+export const TrendUpIcon_ = () => ["TrendUpIcon", <TrendUpIcon {...props} />];
+
+export const UploadIcon_ = () => ["UploadIcon", <UploadIcon {...props} />];
+
+export const VideosIcon_ = () => ["VideosIcon", <VideosIcon {...props} />];
+
+export const ViewIcon_ = () => ["ViewIcon", <ViewIcon {...props} />];
+
+export const WaitingTimeIcon_ = () => [
+  "WaitingTimeIcon",
+  <WaitingTimeIcon {...props} />,
+];
+
+export const WalkinIcon_ = () => ["WalkinIcon", <WalkinIcon {...props} />];
+
+export const WebsiteIcon_ = () => ["WebsiteIcon", <WebsiteIcon {...props} />];
