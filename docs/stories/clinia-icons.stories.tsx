@@ -34,6 +34,29 @@ import { CorrespondanceIcon } from "@clinia-ui/icons/CorrespondanceIcon";
 import { CustomFieldIcon } from "@clinia-ui/icons/CustomFieldIcon";
 import { CustomFieldsDisabledIcon } from "@clinia-ui/icons/CustomFieldsDisabledIcon";
 import { CustomFieldsEnabledIcon } from "@clinia-ui/icons/CustomFieldsEnabledIcon";
+import { DataIcon } from "@clinia-ui/icons/DataIcon";
+import { DateTimeIcon } from "@clinia-ui/icons/DateTimeIcon";
+import { DeactivateIcon } from "@clinia-ui/icons/DeactivateIcon";
+import { DegreeIcon } from "@clinia-ui/icons/DegreeIcon";
+import { DeleteIcon } from "@clinia-ui/icons/DeleteIcon";
+import { DepartmentIcon } from "@clinia-ui/icons/DepartmentIcon";
+import { DeselectIcon } from "@clinia-ui/icons/DeselectIcon";
+import { DetailsIcon } from "@clinia-ui/icons/DetailsIcon";
+import { DevConsoleIcon } from "@clinia-ui/icons/DevConsoleIcon";
+import { DirectionsIcon } from "@clinia-ui/icons/DirectionsIcon";
+import { DirectoryIcon } from "@clinia-ui/icons/DirectoryIcon";
+import { DoctorIcon } from "@clinia-ui/icons/DoctorIcon";
+import { DoubleLeftArrowIcon } from "@clinia-ui/icons/DoubleLeftArrowIcon";
+import { DoubleRightArrowIcon } from "@clinia-ui/icons/DoubleRightArrowIcon";
+import { DownloadIcon } from "@clinia-ui/icons/DownloadIcon";
+import { DragIcon } from "@clinia-ui/icons/DragIcon";
+import { DriveThroughIcon } from "@clinia-ui/icons/DriveThroughIcon";
+import { DropdownIcon } from "@clinia-ui/icons/DropdownIcon";
+import { EditIcon } from "@clinia-ui/icons/EditIcon";
+import { ElderlyIcon } from "@clinia-ui/icons/ElderlyIcon";
+import { EllipseIcon } from "@clinia-ui/icons/EllipseIcon";
+import { ExportIcon } from "@clinia-ui/icons/ExportIcon";
+import { ExternalLinkIcon } from "@clinia-ui/icons/ExternalLinkIcon";
 import {
   Button,
   Card,
@@ -228,4 +251,89 @@ export const CustomFieldsDisabledIcon_ = () => [
 export const CustomFieldsEnabledIcon_ = () => [
   "CustomFieldsEnabledIcon",
   <CustomFieldsEnabledIcon {...props} />,
+];
+
+export const DataIcon_ = () => ["DataIcon", <DataIcon {...props} />];
+
+export const DateTimeIcon_ = () => [
+  "DateTimeIcon",
+  <DateTimeIcon {...props} />,
+];
+
+export const DeactivateIcon_ = () => [
+  "DeactivateIcon",
+  <DeactivateIcon {...props} />,
+];
+
+export const DegreeIcon_ = () => ["DegreeIcon", <DegreeIcon {...props} />];
+
+export const DeleteIcon_ = () => ["DeleteIcon", <DeleteIcon {...props} />];
+
+export const DepartmentIcon_ = () => [
+  "DepartmentIcon",
+  <DepartmentIcon {...props} />,
+];
+
+export const DeselectIcon_ = () => [
+  "DeselectIcon",
+  <DeselectIcon {...props} />,
+];
+
+export const DetailsIcon_ = () => ["DetailsIcon", <DetailsIcon {...props} />];
+
+export const DevConsoleIcon_ = () => [
+  "DevConsoleIcon",
+  <DevConsoleIcon {...props} />,
+];
+
+export const DirectionsIcon_ = () => [
+  "DirectionsIcon",
+  <DirectionsIcon {...props} />,
+];
+
+export const DirectoryIcon_ = () => [
+  "DirectoryIcon",
+  <DirectoryIcon {...props} />,
+];
+
+export const DoctorIcon_ = () => ["DoctorIcon", <DoctorIcon {...props} />];
+
+export const DoubleLeftArrowIcon_ = () => [
+  "DoubleLeftArrowIcon",
+  <DoubleLeftArrowIcon {...props} />,
+];
+
+export const DoubleRightArrowIcon_ = () => [
+  "DoubleRightArrowIcon",
+  <DoubleRightArrowIcon {...props} />,
+];
+
+export const DownloadIcon_ = () => [
+  "DownloadIcon",
+  <DownloadIcon {...props} />,
+];
+
+export const DragIcon_ = () => ["DragIcon", <DragIcon {...props} />];
+
+export const DriveThroughIcon_ = () => [
+  "DriveThroughIcon",
+  <DriveThroughIcon {...props} />,
+];
+
+export const DropdownIcon_ = () => [
+  "DropdownIcon",
+  <DropdownIcon {...props} />,
+];
+
+export const EditIcon_ = () => ["EditIcon", <EditIcon {...props} />];
+
+export const ElderlyIcon_ = () => ["ElderlyIcon", <ElderlyIcon {...props} />];
+
+export const EllipseIcon_ = () => ["EllipseIcon", <EllipseIcon {...props} />];
+
+export const ExportIcon_ = () => ["ExportIcon", <ExportIcon {...props} />];
+
+export const ExternalLinkIcon_ = () => [
+  "ExternalLinkIcon",
+  <ExternalLinkIcon {...props} />,
 ];
