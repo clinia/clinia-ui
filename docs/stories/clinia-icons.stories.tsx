@@ -1,5 +1,4 @@
 import { AccessibilityIcon } from "@clinia-ui/icons/AccessibilityIcon";
-import { CliniaIcon } from "@clinia-ui/icons/CliniaIcon";
 import { AddIcon } from "@clinia-ui/icons/AddIcon";
 import { AddImageIcon } from "@clinia-ui/icons/AddImageIcon";
 import { AddSuggestionIcon } from "@clinia-ui/icons/AddSuggestionIcon";
@@ -15,6 +14,26 @@ import { ArrowDownIcon } from "@clinia-ui/icons/ArrowDownIcon";
 import { ArrowLeftCircleIcon } from "@clinia-ui/icons/ArrowLeftCircleIcon";
 import { ArrowRightCircleIcon } from "@clinia-ui/icons/ArrowRightCircleIcon";
 import { ArrowUpIcon } from "@clinia-ui/icons/ArrowUpIcon";
+import { BookingIcon } from "@clinia-ui/icons/BookingIcon";
+import { BookmarkIcon } from "@clinia-ui/icons/BookmarkIcon";
+import { BrokenImageIcon } from "@clinia-ui/icons/BrokenImageIcon";
+import { BulletPointsIcon } from "@clinia-ui/icons/BulletPointsIcon";
+import { ByNameIcon } from "@clinia-ui/icons/ByNameIcon";
+import { ByTypeIcon } from "@clinia-ui/icons/ByTypeIcon";
+import { CalendarIcon } from "@clinia-ui/icons/CalendarIcon";
+import { CaseToReferIcon } from "@clinia-ui/icons/CaseToReferIcon";
+import { CheckboxIcon } from "@clinia-ui/icons/CheckboxIcon";
+import { CheckmarkIcon } from "@clinia-ui/icons/CheckmarkIcon";
+import { ClearIcon } from "@clinia-ui/icons/ClearIcon";
+import { CliniaIcon } from "@clinia-ui/icons/CliniaIcon";
+import { ClinicIcon } from "@clinia-ui/icons/ClinicIcon";
+import { ClockIcon } from "@clinia-ui/icons/ClockIcon";
+import { CloseIcon } from "@clinia-ui/icons/CloseIcon";
+import { CopyIcon } from "@clinia-ui/icons/CopyIcon";
+import { CorrespondanceIcon } from "@clinia-ui/icons/CorrespondanceIcon";
+import { CustomFieldIcon } from "@clinia-ui/icons/CustomFieldIcon";
+import { CustomFieldsDisabledIcon } from "@clinia-ui/icons/CustomFieldsDisabledIcon";
+import { CustomFieldsEnabledIcon } from "@clinia-ui/icons/CustomFieldsEnabledIcon";
 import {
   Button,
   Card,
@@ -138,7 +157,75 @@ export const ArrowRightCircleIcon_ = () => [
 
 export const ArrowUpIcon_ = () => ["ArrowUpIcon", <ArrowUpIcon {...props} />];
 
-export const CliniaIcon_: IconStory = () => [
-  "CliniaIcon",
-  <CliniaIcon {...props} />,
+export const BookingIcon_ = () => ["BookingIcon", <BookingIcon {...props} />];
+
+export const BookmarkIcon_ = () => [
+  "BookmarkIcon",
+  <BookmarkIcon {...props} />,
+];
+
+export const BrokenImageIcon_ = () => [
+  "BrokenImageIcon",
+  <BrokenImageIcon {...props} />,
+];
+
+export const BulletPointsIcon_ = () => [
+  "BulletPointsIcon",
+  <BulletPointsIcon {...props} />,
+];
+
+export const ByNameIcon_ = () => ["ByNameIcon", <ByNameIcon {...props} />];
+
+export const ByTypeIcon_ = () => ["ByTypeIcon", <ByTypeIcon {...props} />];
+
+export const CalendarIcon_ = () => [
+  "CalendarIcon",
+  <CalendarIcon {...props} />,
+];
+
+export const CaseToReferIcon_ = () => [
+  "CaseToReferIcon",
+  <CaseToReferIcon {...props} />,
+];
+
+export const CheckboxIcon_ = () => [
+  "CheckboxIcon",
+  <CheckboxIcon {...props} />,
+];
+
+export const CheckmarkIcon_ = () => [
+  "CheckmarkIcon",
+  <CheckmarkIcon {...props} />,
+];
+
+export const ClearIcon_ = () => ["ClearIcon", <ClearIcon {...props} />];
+
+export const CliniaIcon_ = () => ["CliniaIcon", <CliniaIcon {...props} />];
+
+export const ClinicIcon_ = () => ["ClinicIcon", <ClinicIcon {...props} />];
+
+export const ClockIcon_ = () => ["ClockIcon", <ClockIcon {...props} />];
+
+export const CloseIcon_ = () => ["CloseIcon", <CloseIcon {...props} />];
+
+export const CopyIcon_ = () => ["CopyIcon", <CopyIcon {...props} />];
+
+export const CorrespondanceIcon_ = () => [
+  "CorrespondanceIcon",
+  <CorrespondanceIcon {...props} />,
+];
+
+export const CustomFieldIcon_ = () => [
+  "CustomFieldIcon",
+  <CustomFieldIcon {...props} />,
+];
+
+export const CustomFieldsDisabledIcon_ = () => [
+  "CustomFieldsDisabledIcon",
+  <CustomFieldsDisabledIcon {...props} />,
+];
+
+export const CustomFieldsEnabledIcon_ = () => [
+  "CustomFieldsEnabledIcon",
+  <CustomFieldsEnabledIcon {...props} />,
 ];
