@@ -55,8 +55,31 @@ import { DropdownIcon } from "@clinia-ui/icons/DropdownIcon";
 import { EditIcon } from "@clinia-ui/icons/EditIcon";
 import { ElderlyIcon } from "@clinia-ui/icons/ElderlyIcon";
 import { EllipseIcon } from "@clinia-ui/icons/EllipseIcon";
+import { EmailIcon } from "@clinia-ui/icons/EmailIcon";
 import { ExportIcon } from "@clinia-ui/icons/ExportIcon";
 import { ExternalLinkIcon } from "@clinia-ui/icons/ExternalLinkIcon";
+import { FaceIcon } from "@clinia-ui/icons/FaceIcon";
+import { FaxIcon } from "@clinia-ui/icons/FaxIcon";
+import { FeaturedIcon } from "@clinia-ui/icons/FeaturedIcon";
+import { FeedbackIcon } from "@clinia-ui/icons/FeedbackIcon";
+import { FilterActiveIcon } from "@clinia-ui/icons/FilterActiveIcon";
+import { FilterInactiveIcon } from "@clinia-ui/icons/FilterInactiveIcon";
+import { FiltersIcon } from "@clinia-ui/icons/FiltersIcon";
+import { FlagActiveIcon } from "@clinia-ui/icons/FlagActiveIcon";
+import { FlagInactiveIcon } from "@clinia-ui/icons/FlagInactiveIcon";
+import { ForbiddenIcon } from "@clinia-ui/icons/ForbiddenIcon";
+import { GenderIcon } from "@clinia-ui/icons/GenderIcon";
+import { GraduationIcon } from "@clinia-ui/icons/GraduationIcon";
+import { GraphIcon } from "@clinia-ui/icons/GraphIcon";
+import { HealthResourceIcon } from "@clinia-ui/icons/HealthResourceIcon";
+import { HelpIcon } from "@clinia-ui/icons/HelpIcon";
+import { HomeIcon } from "@clinia-ui/icons/HomeIcon";
+import { HospitalIcon } from "@clinia-ui/icons/HospitalIcon";
+import { IdentifiantIcon } from "@clinia-ui/icons/IdentifiantIcon";
+import { InfoIcon } from "@clinia-ui/icons/InfoIcon";
+import { InformationIcon } from "@clinia-ui/icons/InformationIcon";
+import { InsuranceIcon } from "@clinia-ui/icons/InsuranceIcon";
+import { IntegrationIcon } from "@clinia-ui/icons/IntegrationIcon";
 import {
   Button,
   Card,
@@ -331,9 +354,97 @@ export const ElderlyIcon_ = () => ["ElderlyIcon", <ElderlyIcon {...props} />];
 
 export const EllipseIcon_ = () => ["EllipseIcon", <EllipseIcon {...props} />];
 
+export const EmailIcon_ = () => ["EmailIcon", <EmailIcon {...props} />];
+
 export const ExportIcon_ = () => ["ExportIcon", <ExportIcon {...props} />];
 
 export const ExternalLinkIcon_ = () => [
   "ExternalLinkIcon",
   <ExternalLinkIcon {...props} />,
+];
+
+export const FaceIcon_ = () => ["FaceIcon", <FaceIcon {...props} />];
+
+export const FaxIcon_ = () => ["FaxIcon", <FaxIcon {...props} />];
+
+export const FeaturedIcon_ = () => [
+  "FeaturedIcon",
+  <FeaturedIcon {...props} />,
+];
+
+export const FeedbackIcon_ = () => [
+  "FeedbackIcon",
+  <FeedbackIcon {...props} />,
+];
+
+export const FilterActiveIcon_ = () => [
+  "FilterActiveIcon",
+  <FilterActiveIcon {...props} />,
+];
+
+export const FilterInactiveIcon_ = () => [
+  "FilterInactiveIcon",
+  <FilterInactiveIcon {...props} />,
+];
+
+export const FiltersIcon_ = () => ["FiltersIcon", <FiltersIcon {...props} />];
+
+export const FlagActiveIcon_ = () => [
+  "FlagActiveIcon",
+  <FlagActiveIcon {...props} />,
+];
+
+export const FlagInactiveIcon_ = () => [
+  "FlagInactiveIcon",
+  <FlagInactiveIcon {...props} />,
+];
+
+export const ForbiddenIcon_ = () => [
+  "ForbiddenIcon",
+  <ForbiddenIcon {...props} />,
+];
+
+export const GenderIcon_ = () => ["GenderIcon", <GenderIcon {...props} />];
+
+export const GraduationIcon_ = () => [
+  "GraduationIcon",
+  <GraduationIcon {...props} />,
+];
+
+export const GraphIcon_ = () => ["GraphIcon", <GraphIcon {...props} />];
+
+export const HealthResourceIcon_ = () => [
+  "HealthResourceIcon",
+  <HealthResourceIcon {...props} />,
+];
+
+export const HelpIcon_ = () => ["HelpIcon", <HelpIcon {...props} />];
+
+export const HomeIcon_ = () => ["HomeIcon", <HomeIcon {...props} />];
+
+export const HospitalIcon_ = () => [
+  "HospitalIcon",
+  <HospitalIcon {...props} />,
+];
+
+export const IdentifiantIcon_ = () => [
+  "IdentifiantIcon",
+  <IdentifiantIcon {...props} />,
+];
+
+export const InfoIcon_ = () => ["InfoIcon", <InfoIcon {...props} />];
+
+export const InformationIcon_ = () => [
+  "InformationIcon",
+  <InformationIcon {...props} />,
+];
+
+export const InsuranceIcon_ = () => [
+  "InsuranceIcon",
+  <InsuranceIcon {...props} />,
+];
+
+export const IntegrationIcon_ = () => [
+  "IntegrationIcon",
+  <IntegrationIcon {...props} />,
 ];
