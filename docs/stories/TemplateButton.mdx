@@ -1,0 +1,21 @@
+import { Canvas, Meta, Story } from "@storybook/blocks";
+
+import * as ButtonStories from "./TemplateButton.stories";
+
+<Meta of={ButtonStories} />
+
+# Button
+
+A button can be clicked.
+
+## Default
+
+<Canvas of={ButtonStories.Default} />
+
+## Different
+
+<Canvas of={ButtonStories.Different} />
+<Canvas>
+  <Story of={ButtonStories.Default} />
+  <Story of={ButtonStories.Different} />
+</Canvas>
