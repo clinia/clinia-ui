@@ -1,6 +1,6 @@
 import { Canvas, Meta, Story } from "@storybook/blocks";
-
 import * as CliniaIconsStories from "./clinia-icons.stories";
+import Icons from "./clinia-icons";
 
 <Meta of={CliniaIconsStories} />
 
@@ -9,9 +9,5 @@ import * as CliniaIconsStories from "./clinia-icons.stories";
 Clinia-ui exports its own icons.
 
 <Canvas>
-  {Object.keys(CliniaIconsStories)
-    .filter((key) => key.endsWith("Icon_"))
-    .map((key) => (
-      <Story key={key} of={CliniaIconsStories[key]} />
-    ))}
+  <Icons />
 </Canvas>
