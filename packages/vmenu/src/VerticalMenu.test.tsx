@@ -1,6 +1,4 @@
-import { ChakraProvider } from "@chakra-ui/react";
-import { findByText, render, waitFor } from "@testing-library/react";
-import userEvent from "@testing-library/user-event";
+import { render } from "@testing-library/react";
 import { VerticalMenu, VerticalMenuItemType } from ".";
 
 describe("it should render the menu", () => {
